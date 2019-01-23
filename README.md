@@ -111,6 +111,10 @@ See also: [Building your first Flatpak](http://docs.flatpak.org/en/latest/first-
 
 ## FAQ
 
+### Why not a RPM package?
+
+I already provided [COPR repo](https://copr.fedorainfracloud.org/coprs/scx/ocrfeeder) with (S)RPM packages for EL and Fedora.
+
 ### Are you the author of OCRFeeder?
 
 No, I only created the flatpak package for it.
