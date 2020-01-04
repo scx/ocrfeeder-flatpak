@@ -1,4 +1,4 @@
-name: goocanvas
+name: goocanvas2
 rm-configure: true
 config-opts:
   - --enable-shared
@@ -16,4 +16,4 @@ sources:
     commands:
       - cp -p /usr/share/automake-*/config.{sub,guess} .;
 post-install:
-  - install -p -D -m 0644 "COPYING" -t "${FLATPAK_DEST}/share/licenses/goocanvas/";
+  - install -p -D -m 0644 "COPYING" -t "${FLATPAK_DEST}/share/licenses/goocanvas2/";
