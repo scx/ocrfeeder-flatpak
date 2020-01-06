@@ -44,11 +44,11 @@ See also:
 ### Prepare
 
 ```
-$ flatpak install "flathub" "org.gnome.Sdk//3.32"
+$ flatpak --user install "flathub" "org.gnome.Sdk//3.32"
 ```
 
 ```
-$ flatpak install "flathub" "org.gnome.Platform//3.32"
+$ flatpak --user install "flathub" "org.gnome.Platform//3.32"
 ```
 
 Clone this repository, then checkout the right branch.
@@ -98,7 +98,7 @@ $ flatpak --user install "ocrfeeder" "org.gnome.OCRFeeder"
 ### Run
 
 ```
-$ flatpak run "org.gnome.OCRFeeder"
+$ flatpak --user run "org.gnome.OCRFeeder"
 ```
 
 ### Uninstall
