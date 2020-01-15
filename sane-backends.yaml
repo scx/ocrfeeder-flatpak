@@ -37,3 +37,5 @@ post-install:
 modules:
   - shared-modules/udev/udev-175.json
   - libusb.yaml
+cleanup:
+  - '*.la'
