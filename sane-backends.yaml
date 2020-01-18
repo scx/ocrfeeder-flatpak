@@ -2,6 +2,8 @@ name: sane-backends
 config-opts:
   - --disable-saned
   - --with-usb
+  - --with-snmp
+  - --with-v4l
 sources:
   - type: archive
     url: https://gitlab.com/sane-project/backends/-/archive/1.0.28/backends-1.0.28.tar.bz2
@@ -36,5 +38,9 @@ post-install:
   - install -p -D -m 0644 "COPYING" "LICENSE" -t "${FLATPAK_DEST}/share/licenses/sane-backends/";
 modules:
   - libusb.yaml
+  - libieee1284.yaml
+  - net-snmp.yaml
+  - v4l-utils.yaml
+  - gphoto2.yaml
 cleanup:
   - '*.la'
