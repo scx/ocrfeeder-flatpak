@@ -2,7 +2,7 @@ name: python3-pycairo
 buildsystem: simple
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/3c/1a/c0478ecab31baae50fda9956547788afbd0ca563adc52c9b03cab30f17eb/pycairo-1.18.2.tar.gz
-    sha256: dcb853fd020729516e8828ad364084e752327d4cff8505d20b13504b32b16531
+    url: https://files.pythonhosted.org/packages/e8/9d/c8be300fc6b1298559d37a071c3833b0b251e0fff334d2e4c408d5789162/pycairo-1.19.1.tar.gz
+    sha256: 2c143183280feb67f5beb4e543fd49990c28e7df427301ede04fc550d3562e84
 build-commands:
   - pip3 install --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} pycairo
